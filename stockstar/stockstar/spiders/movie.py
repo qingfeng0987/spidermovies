@@ -1,6 +1,6 @@
 import scrapy
 from stockstar.items import StockstarItem
-#有的时候深层次爬取不出内容，看哈主网址和第二层次网址的域名相同不
+
 class StockSpider(scrapy.Spider):
     name = 'movie'
     allowed_domains = ['www.1905.com']  # 域名
